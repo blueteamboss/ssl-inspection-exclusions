@@ -1,6 +1,6 @@
-# SERVICE: Cisco Duo
+# SERVICE: Cisco Security Cloud
 # TYPE: Functionality
-# DESC: Known Required Exclusions for Cisco Duo
+# DESC: Known Required Exclusions for many of Cisco's security cloud services like XDR, SSE, the Products formerly known as SecureX, etc.
 # VALIDATION: N/A
 # REGION: North America
 # DATE: Dec 22, 2024
