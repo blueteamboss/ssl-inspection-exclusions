@@ -15,6 +15,9 @@ bugsnag.com
 crashlytics.com
 sentry.io
 appsflyer.com
+mobile.launchdarkly.com
+events.launchdarkly.com
+colossus-rrs.symantec.com
 symantec.com # Important for Financial Services
 ec.walkme.com # For user onboarding/Telemetry
 cdn.walkme.com # For user onboarding/Telemetry
