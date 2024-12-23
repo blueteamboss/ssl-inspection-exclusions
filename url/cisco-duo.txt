@@ -10,3 +10,4 @@ api-*.duosecurity.com # Or your org specific URL
 admin-*.duosecurity.com # Or your org specific URL
 sso-*.duosecurity.com # Or your org specific URL
 admin.duosecurity.com
+dl.duosecurity.com

@@ -24,3 +24,4 @@ push.prod.netflix.com
 *.nflxvideo.com
 *.nflxso.net
 *.nflext.com
+*.nflxsearch.net

@@ -23,3 +23,27 @@ This is structured in multiple folders:
 * ipv4 - For services that have their own unique IP schema that would be best to exclude altogether, instead of being selective SNI or URLs. 
 * url - For a list of URLs related to a service that need to be excluded
 * sni - For a list of SNIs that might need to be excluded globally rather than in a specific policy
+
+
+## Category Match for Most Sites
+Overall, for most of the sensitive and legal issues we'll run into, we can use a category match to cover these types of URLs and websites.
+
+I personally always start off with a URL Category match that is excluded from decryption at the top of my policy, covering the following categories at minimum (adjusted for locality/business risk):
+```
+    financial-services
+    legal
+    government
+    health-and-medicine
+    abortion
+    educational-institutions
+    religion
+```
+All of these have legal reasons why we don't want to be decrypting that traffic, in the US thats things like privileged health data, constitutional concerns, whistleblower protections, attorney-client privilege, etc. At a bare minimum, you should be excluding these URL categories from inspection. 
+
+There are others I would generally recommend adding, but they get into the realm of insider-threat management and are something we might want to consider decrypting if we're heavily concerned about insider threats, to include:
+```
+    job-search
+    military
+    philosophy-and-political-advocacy
+```
+Whether you exclude those or not is a risk-management decision. If an employee is visiting some fringe-political or philosophy websites and we later have to perform an insider-threat investigation, some of this data might be helpful for us to analyze. 

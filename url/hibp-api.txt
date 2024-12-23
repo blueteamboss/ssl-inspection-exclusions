@@ -1,0 +1,13 @@
+# SERVICE: HaveIBeenPwned API and Website
+# TYPE: Functionality and Privacy
+# DESC: Known Required Exclusions for HaveIBeenPwned API and Website
+# VALIDATION: N/A
+# REGION: North America
+# DATE: Dec 22, 2024
+# This deals with sensitive data, and we don't want to purposefully compromise a password that isn't already compromised. 
+# The API is also prone to breaking with SSL inspection.
+
+# REQUIRED
+haveibeenpwned.com
+api.pwnedpasswords.com
+api.haveibeenpwned.com
