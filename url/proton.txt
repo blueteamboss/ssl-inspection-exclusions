@@ -1,0 +1,25 @@
+# SERVICE: Proton (Mail, Calendar, etc)
+# TYPE: Privacy and Functionality
+# DESC: Known Required Exclusions for Proton to function and to preserve privacy.
+# VALIDATION: Desktop (Chrome/Firefox), iPhone App and Android App
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+*.protonmail.ch
+*.protonmail.com
+calendar.proton.me
+mail.proton.me
+mail.proton.me/login
+mail-api.protonn.me
+proton.me
+protonmail.ch
+protonmail.com
+account.proton.me
+
+# OPTIONAL, NO RECOMMENDATION MADE
+pass.proton.me
+drive.proton.me
+wallet.proton.me
+calendar.proton.me
+*.proton.me

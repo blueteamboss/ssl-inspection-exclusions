@@ -1,0 +1,10 @@
+# SERVICE: Cisco Duo
+# TYPE: Functionality
+# DESC: Known Required Exclusions for Cisco Duo
+# VALIDATION: N/A
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+dashboard.umbrella.com
+api.opendns.com

@@ -1,0 +1,22 @@
+# SERVICE: ESPN+
+# TYPE: Functionality
+# DESC: Known Required Exclusions for ESPN+ to function on desktop and streaming devices
+# VALIDATION: Desktop (Chrome/Firefox) and Apple TV OS 18.2
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+espn.api.edge.bamgrid.com
+watch-cdn.product.api.espn.com
+artwork.api.espncdn.com
+secure.espncdn.com
+s.secure.espncdn.com
+static-assets.bamgrid.com
+bam-sdk-configs.bamgrid.com
+playback-certs.bamgrid.com
+pcs.bamgrid.com
+
+
+# OPTIONAL BUT RECOMMENDED
+*.secure.espncdn.com
+*.espncdn.com

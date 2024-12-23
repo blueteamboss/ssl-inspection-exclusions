@@ -1,0 +1,14 @@
+# SERVICE: Cisco RADKit
+# TYPE: Functionality
+# DESC: Known Required Exclusions for Cisco RADKit
+# VALIDATION: N/A
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+radkit-cloud.cisco.com
+ocsp.radkit-cloud.cisco.com
+prod.radkit-cloud.cisco.com
+
+# OPTIONAL, NO RECOMMENDATION MADE
+*.radkit-cloud.cisco.com

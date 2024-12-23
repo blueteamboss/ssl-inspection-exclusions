@@ -1,0 +1,13 @@
+# SERVICE: Hulu
+# TYPE: Functionality
+# DESC: Known Required Exclusions for Hulu to function on desktop and streaming devices
+# VALIDATION: Desktop (Chrome/Firefox) and Apple TV OS 18.2
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+auth.hulu.com
+static-assets.bamgrid.com
+bam-sdk-configs.bamgrid.com
+playback-certs.bamgrid.com
+pcs.bamgrid.com

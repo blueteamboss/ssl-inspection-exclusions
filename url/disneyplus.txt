@@ -1,0 +1,16 @@
+# SERVICE: Disney+
+# TYPE: Functionality
+# DESC: Known Required Exclusions for Disney+ to function on desktop and streaming devices
+# VALIDATION: Desktop (Chrome/Firefox) and Apple TV OS 18.2
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+disney.content.edge.bamgrid.com
+disney.api.edge.bamgrid.com
+disney.playback.edge.bamgrid.com
+disney.connections.edge.bamgrid.com
+static-assets.bamgrid.com
+bam-sdk-configs.bamgrid.com
+playback-certs.bamgrid.com
+pcs.bamgrid.com

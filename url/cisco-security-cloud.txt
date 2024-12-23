@@ -1,0 +1,27 @@
+# SERVICE: Cisco Security Cloud
+# TYPE: Functionality
+# DESC: Known Required Exclusions for many of Cisco's security cloud services like XDR, SSE, the Products formerly known as SecureX, etc.
+# VALIDATION: N/A
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# Cisco XDR
+sensor.ext.obsrvbl.com
+org-*.obsrvbl.com # Or your Org Specific Stealtwatch Cloud/XDR Instance
+acme.obsrvbl.com
+visibility.amp.cisco.com
+private.intel.amp.cisco.com
+
+# Common Services
+automate.us.security.cisco.com
+us.security.cisco.com
+xdr.secrity.cisco.com
+control.security.cisco.com
+sign-on.security.cisco.com
+scso-cdn.security.cisco.com
+login.okta.com # Your SCSO account is actually just a managed Okta account...
+*.oktacdn.com # Your SCSO account is actually just a managed Okta account...
+
+
+# OPTIONAL, RECOMMENDED
+*.obsrvbl.com

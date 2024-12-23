@@ -1,0 +1,20 @@
+# SERVICE: Misc Diagnostics, Telemetry, Analytics
+# TYPE: Functionality
+# DESC: Optional exclusions that might impact certain analytics and diagnostics functionality or break certain components of services.
+# VALIDATION: N/A
+# REGION: North America
+# DATE: Dec 22, 2024
+
+*.bugsnag.com
+*.crashlytics.com
+*.sentry.io
+*.appsflyer.com
+*.symantec.com # Important for Financial Services
+*.device.marketingcloudapis.com
+bugsnag.com
+crashlytics.com
+sentry.io
+appsflyer.com
+symantec.com # Important for Financial Services
+ec.walkme.com # For user onboarding/Telemetry
+cdn.walkme.com # For user onboarding/Telemetry

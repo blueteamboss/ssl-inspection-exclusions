@@ -1,0 +1,16 @@
+# SERVICE: Signal Messenger
+# TYPE: Functionality
+# DESC: Known Required Exclusions for Signal Messenger to Function
+# VALIDATION: Desktop, Mobile (iPhone/Android)
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+signal.org
+chat.signal.org
+cdn.signal.org
+cdn2.signal.org
+*.whisphersystems.org
+
+# OPTIONAL, RECOMMENDED
+*.signal.org

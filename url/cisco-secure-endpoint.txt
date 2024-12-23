@@ -1,0 +1,41 @@
+# SERVICE: Cisco Secure Endpoint (The Product formerly known as AMP)
+# TYPE: Functionality
+# DESC: Known Required Exclusions for Cisco Secure Endpoint (including Orbital)
+# VALIDATION: N/A
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+# Cisco Secure Endpoint
+clam-defs.amp.cisco.com
+commercial.ocsp.identrust.com
+tetra-defs.amp.cisco.com
+validation.identrust.com
+apde.amp.cisco.com
+cloud-android-asn.amp.cisco.com
+cloud-ec-asn.amp.cisco.com
+cloud-ec-est.amp.cisco.com
+cloud-ios-asn.amp.cisco.com
+cloud-ios-est.amp.cisco.com
+cloud-pc-asn.amp.cisco.com
+cloud-pc-est.amp.cisco.com
+console.amp.cisco.com
+crash.amp.cisco.com
+custom-signatures.amp.cisco.com
+endpoints.amp.cisco.com
+enrolment.amp.cisco.com # No this is not a typo...
+intake.amp.cisco.com
+ioc.amp.cisco.com
+mgmt.amp.cisco.com
+nimbus.bitdefender.net
+packages-v2.amp.sourcefire.com
+pc-packages.amp.cisco.com
+policy.amp.cisco.com
+rff.amp.cisco.com
+submit.amp.cisco.com
+upgrades.amp.cisco.com
+
+# Cisco Orbital
+orbital.amp.cisco.com
+update.orbital.amp.cisco.com
+ncp.orbital.amp.cisco.com

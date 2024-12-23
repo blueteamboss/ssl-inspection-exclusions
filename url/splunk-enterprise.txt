@@ -1,0 +1,17 @@
+# SERVICE: Splunk Enterprise
+# TYPE: Privacy and Functionality
+# DESC: Known Required Exclusions for Splunk Telemtry, Licensing, API Connections
+# VALIDATION: Splunk Enterprise 9.3.0
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+quickdrawk.splunk.com
+dataeng.splunk.com
+beam.scs.splunk.com
+*.brightcloud.com
+*.dataeng.splunk.com
+
+# Note:
+# You will also want to consider excluding any APIs you connect Splunk to, examples include:
+# Duo, AWS, MS Graph, CrowdStrike, etc. 

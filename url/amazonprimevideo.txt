@@ -1,0 +1,27 @@
+# SERVICE: Amazon Prime Video
+# TYPE: Functionality
+# DESC: Known Required Exclusions for Prime Video to function on desktop and streaming devices
+# VALIDATION: Desktop (Chrome/Firefox) and Apple TV OS 18.2
+# REGION: North America
+# DATE: Dec 22, 2024
+
+# REQUIRED
+*.amazonvideo.com
+*.ssl-images.amazon.com
+*.api.amazonvideo.com
+*.ssl-images-amazon.com
+amazondsrw.s.llnwi.net
+api.amazon.com
+media.amazon.com
+media.amazon.map.fastly.net
+m.media.amazon.com
+bob-dispatch-prod-na.amazon.com
+dmqdd6hw24ucf.cloudfront.net
+d1y002tclu9djj.cloudfront.net
+d3n1ia9sbrp6cd.cloudfront.net
+d184dfn36gombl.cloudfront.net
+d3196yreox78o9.cloudfront.net
+
+# OPTIONAL, NO RECOMMENDATION MADE
+api.amazonalexa.com
+bob-dispatch-prod-*.amazon.com
