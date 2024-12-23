@@ -16,6 +16,7 @@ private.intel.amp.cisco.com
 automate.us.security.cisco.com
 us.security.cisco.com
 xdr.secrity.cisco.com
+cdn.security.cisco.com
 control.security.cisco.com
 sign-on.security.cisco.com
 scso-cdn.security.cisco.com

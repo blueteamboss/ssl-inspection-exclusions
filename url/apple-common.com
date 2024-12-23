@@ -16,3 +16,16 @@ main-sse-ws-p189.apple.com
 ocsp.apple.com
 ocsp2.apple.com
 pancake.apple.com
+experiments.apple.com
+cl1.apple.com
+cl2.apple.com
+cl3.apple.com
+cl4.apple.com
+aidc.apple.com
+amp-api.media.apple.com
+ipcdn.apple.com
+sylvan.apple.com
+iphone-ld.apple.com
+app-site-association.cdn-apple.com
+smp-device-content.apple.com
+itunes.com

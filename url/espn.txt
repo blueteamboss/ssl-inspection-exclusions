@@ -15,7 +15,7 @@ static-assets.bamgrid.com
 bam-sdk-configs.bamgrid.com
 playback-certs.bamgrid.com
 pcs.bamgrid.com
-
+broadband.espn.com
 
 # OPTIONAL BUT RECOMMENDED
 *.secure.espncdn.com
