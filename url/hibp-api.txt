@@ -8,6 +8,9 @@
 # The API is also prone to breaking with SSL inspection.
 
 # REQUIRED
+www.haveibeenpwned.com
+www.api.pwnedpasswords.com
+www.api.haveibeenpwned.com
 haveibeenpwned.com
 api.pwnedpasswords.com
 api.haveibeenpwned.com
