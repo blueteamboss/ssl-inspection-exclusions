@@ -4,6 +4,7 @@
 # VALIDATION: N/A
 # REGION: North America
 # DATE: Dec 23, 2024
+# Google heavily uses key pinning, very few of their services are actually decryptable.
 
 # REQUIRED
 *.ggpht.com
@@ -14,6 +15,8 @@
 *.gstatic.com
 *.youtube.com
 *.ytimg.com
+gmail.com 
+www.gmail.com
 news.google.com
 play.google.com
 www.play.google.com
